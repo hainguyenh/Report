@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Extent Report Only", "01. Extent Report Only", "{AE8087EE-054D-40BD-9DA3-F18A1CF7DACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentReportOnly", "ExtentReportOnly\ExtentReportOnly.csproj", "{319D6B97-9AF7-4B27-9636-BF6B1A9C6DAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Extent Report with Klov", "02. Extent Report with Klov", "{B2C6804B-B546-4FC3-BDBE-5DE999A84A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentReportWithKlov", "ExtentReportWithKlov\ExtentReportWithKlov.csproj", "{F4B4E222-BC30-4B85-8473-BD0F85E91986}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Apply BDD Framework", "03. Apply BDD Framework", "{6D4BD872-875E-41FB-9ABF-C9852107E657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyBDDFramework", "ApplyBDDFramework\ApplyBDDFramework.csproj", "{901127C9-1895-490A-B03B-908B54033F10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{319D6B97-9AF7-4B27-9636-BF6B1A9C6DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319D6B97-9AF7-4B27-9636-BF6B1A9C6DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319D6B97-9AF7-4B27-9636-BF6B1A9C6DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319D6B97-9AF7-4B27-9636-BF6B1A9C6DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B4E222-BC30-4B85-8473-BD0F85E91986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B4E222-BC30-4B85-8473-BD0F85E91986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B4E222-BC30-4B85-8473-BD0F85E91986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B4E222-BC30-4B85-8473-BD0F85E91986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901127C9-1895-490A-B03B-908B54033F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901127C9-1895-490A-B03B-908B54033F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901127C9-1895-490A-B03B-908B54033F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901127C9-1895-490A-B03B-908B54033F10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{319D6B97-9AF7-4B27-9636-BF6B1A9C6DAF} = {AE8087EE-054D-40BD-9DA3-F18A1CF7DACE}
+		{F4B4E222-BC30-4B85-8473-BD0F85E91986} = {B2C6804B-B546-4FC3-BDBE-5DE999A84A44}
+		{901127C9-1895-490A-B03B-908B54033F10} = {6D4BD872-875E-41FB-9ABF-C9852107E657}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BC74276-D95B-4A43-A3CD-DD26523CD566}
+	EndGlobalSection
+EndGlobal
