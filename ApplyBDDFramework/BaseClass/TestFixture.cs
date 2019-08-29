@@ -25,7 +25,15 @@ namespace ApplyBDDFramework.BaseClass
             var htmlReporter = new ExtentHtmlReporter(dirReport);
 
             htmlReporter.LoadConfig(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\extent-config.xml");
-            BaseValues.ExtentReports.AttachReporter(htmlReporter);
+            // Klov***************
+
+            BaseValues.KlovReport.InitMongoDbConnection("localhost", 27017);
+            // URL of the KLOV server
+            BaseValues.KlovReport.InitKlovServerConnection("http://localhost:5689");
+            BaseValues.KlovReport.ProjectName = "Extent Report - Klov";
+            BaseValues.KlovReport.ReportName = "Test results " + DateTime.Now.ToString();
+
+            BaseValues.ExtentReports.AttachReporter(BaseValues.KlovReport, htmlReporter);
         }
 
         [OneTimeSetUp]

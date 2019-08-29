@@ -22,7 +22,7 @@ namespace ApplyBDDFramework.BaseClass
             private set => _browser = value;
         }
 
-        public static void StartBrowser(BrowserType browserType = BrowserType.Firefox, int defaultTimeOut = 30)
+        public static void StartBrowser(BrowserType browserType = BrowserType.Firefox, int defaultTimeOut = 60)
         {
             switch (browserType)
             {

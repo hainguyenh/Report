@@ -1,0 +1,1 @@
+xcopy /s ".\ExtentReportOnly\bin\Debug" "Test"

@@ -4,7 +4,7 @@
 @mytag
 Scenario: Apply BDD Framework
 	Given I navigate to the log in page
-	When I input the "Username" and "Password"
+	When I input the Username and Password
 		| Username                  | Password |
 		| truyentranhtuan@gmail.com | 123456   |
 	And I click on the Sign in button
