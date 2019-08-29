@@ -114,7 +114,7 @@ namespace ApplyBDDFramework.BaseClass
         }
 
         [AfterTestRun]
-        public static void AfterTestRun()
+        public static void AfterRunAllTest()
         {
             BaseValues.ExtentReports.Flush();
             CleanUpAllDriver();

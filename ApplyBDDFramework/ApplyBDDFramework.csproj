@@ -132,6 +132,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="_example\Readme.txt" />
+    <Content Include="_example\Report Thu 29-Aug-2019 14-53-12\dashboard.html" />
+    <Content Include="_example\Report Thu 29-Aug-2019 14-53-12\index.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
